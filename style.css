@@ -1,0 +1,127 @@
+:root{
+    --primario: #006D4E;
+    --primario-green: #4ED176;
+    --secundario-blue: #079DEF;
+    --secundario-btn: #52DEFF;
+    --secundario-164c: #FF7150;
+    --btn: #6c757d;
+    --font-family-circular-Book: 'CircularXX-Book';
+    --font-family-circular: 'CircularXX-Regular';
+    --font-family-circular-Thin: 'CircularXX-Thin';
+}
+/*--CSS--*/
+body, main .container{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAFBFB;
+}
+main{
+
+    background-color: #FAFBFB;
+}
+
+h1{
+    color: var(--primario);
+    font-size: 22px !important;
+    text-align: end !important;
+    margin-right: 45px;
+}
+
+/*---Margin---*/
+.mg-top-16{
+    margin-top: 16px;
+}
+.mg-top-45{
+    margin-top: 45px !important;
+    width: inherit;
+}
+.menu-text{
+    font-size: 16px;
+}
+.logo{
+    width: 80%;
+    margin: 12px;
+    margin-bottom: 45px;
+}
+.nav-pills, .nav-pills.active{
+    background-color: var(--primario) !important;
+    --bs-nav-pills-link-active-bg: white !important;
+    --bs-nav-pills-link-active-color: var(--primario) !important; 
+}
+.nav-link{
+    color: white !important;
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px !important;
+}
+.active{
+    margin: 8px;
+    color: var(--primario) !important;
+}
+i{
+    color: var(--primario);
+    background-color: #006D4E;
+    width: 80px;
+}
+.page-link{
+    color: black !important;
+}
+
+.active-p{
+    font-weight: 800;
+    color: var(--primario) !important;
+}
+.paginacion-mg{
+    margin-top: 160px !important;
+}
+.navegacion-mg{
+    margin-right: 50px !important;
+}
+.page-next{
+    background-color: var(--primario-green) !important;
+}
+.content{
+    margin-top: 35px;
+}
+.link-int{
+    color: var(--btn) !important;
+}
+.link-int.active{
+    color: var(--primario) !important;
+}
+.btn-filtro{
+    color: var(--primario) !important;
+    background-color: white !important;
+    border-color: 2px var(--primario) !important;
+}
+.radius-form{
+    border-radius: 30px !important;
+    background-color: #E5E5E5 !important;
+    color: #6c757d !important;
+}
+.btn-exportar{
+    color: black !important;
+    border-color:var(--secundario-blue)  !important;
+}
+
+.btn-exportar:hover{
+    color: white !important;
+    background-color: var(--secundario-blue) !important;
+}
+.table-content{
+    margin-top: 25px;
+    width: fit-content;
+    color: var(--primario) !important;
+    text-align: start;
+}
+.tcontent{
+    font-weight: 300;
+    font-size: 16px;
+}
+.tTitle{
+    font-size: 18px;
+}
+.ico-excel{
+    margin-right: 18px;
+    width: 20px;
+}
