@@ -16,10 +16,11 @@ body, main .container{
     background-color: #FAFBFB;
 }
 main{
-
     background-color: #FAFBFB;
 }
-
+#v-pills-tabContent{
+    background-color: #FAFBFB;
+}
 h1{
     color: var(--primario);
     font-size: 22px !important;
