@@ -58,109 +58,36 @@
                         <!-----Datos personales------>
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                           <div class="contenido">
-                              <h3 style="margin-bottom: 25px; margin-top: 25px;">Nueva cotización</h3>
                               <form class="row g-3 tap-content">
-                                <div class="col-12">
-                                  <label for="exampleFormControlInput1" class="form-label">Destino</label>
-                                  <select class="form-select" aria-label="Default select example">
-                                  <option selected>Destino</option>
-                                  <option value="1">ADQUISICIÓN DE TERRENO</option>
-                                  <option value="2">ADQUISICION DE TERRENO Y CONSTRUCCION</option>
-                                  <option value="3">ADQUISICIÓN DE VIVIENDA</option>
-                                  <option value="4">ADQUISICION MAS REMODELACION</option>
-                                  <option value="5">CONSTRUCCIÓN</option>
-                                  <option value="6">LIQUIDEZ</option>
-                                  <option value="7">LIQUIDEZ DE TERRENO</option>
-                                  <option value="8">MEJORA TU HIPOTECA MÁS DINERO ADICIONAL</option>
-                                  <option value="9">MEJORA TU HIPOTECA MAS REMODELACION</option>
-                                  <option value="10">MEJORA TU HIPOTECA ORIGEN LIQUIDEZ</option>
-                                  <option value="12">MEJORA TU HIPOTECA ORIGEN TERRENO</option>
-                                  <option value="13">MEJORA TU HIPOTECA ORIGEN VIVIENDA</option>
-                                  <option value="14">PREVENTA</option>
-                                  <option value="15">REMODELACIÓN</option>
-                                  <option value="16">TERMINACIÓN DE OBRA</option>
-                                  <option value="17">TERMINACIÓN DE OBRA MAS REMODELACIÓN</option>
-                                </select>                
-                              </div>
-                              <div class="col-12">
-                                <label for="exampleFormControlInput1" class="form-label">Programas</label>
-                                <select class="form-select" aria-label="Default select example">
-                                <option selected>Programas</option>
-                                <option value="1">APOYO INFONAVIT</option>
-                                <option value="2">COFINANCIAMIENTO INFONAVIT</option>
-                                <option value="3">FOVISSSTE</option>
-                                <option value="4">SIN PROGRAMA</option>
-                              </select>                
-                            </div>
-                                <div class="col-6">
-                                  <label for="inputAddress" class="form-label">Valor de vivienda (valor proyectado)</label>
-                                  <input type="text" class="form-control" id="inputAddress" placeholder="$x,xxx,xxx">
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Nombre</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
                                 </div>
-                                <div class="col-6">
-                                  <label for="inputAddress" class="form-label">Monto de crédito</label>
-                                  <input type="text" class="form-control" id="inputAddress" placeholder="$x,xxx,xxx">
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Segundo nombre</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Segundo nombre">
                                 </div>
-          
-                                <div class="col-6">
-                                  <label for="inputAddress" class="form-label">Plazos a cotizar</label>
-                                  <input type="text" class="form-control" id="inputAddress" placeholder="$x,xxx,xxx">
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Apellido Paterno</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Apellido Paterno">
                                 </div>
-                                <div class="col-6">
-                                  <label for="inputAddress" class="form-label">Esquemas de pago</label>
-                                  <select class="form-select" aria-label="Default select example">
-                                  <option selected>Pago Fijo</option>
-                                  <option value="1">Pago creciente</option>
-                                </select>   
-                                </div>
-          
-                                <div class="col-6">
-                                  <label for="inputAddress" class="form-label">Gastos notariales</label>
-                                  <select class="form-select" aria-label="Default select example">
-                                      <option selected>1%</option>
-                                      <option value="1">2%</option>
-                                      <option value="2">3%</option>
-                                      <option value="3">4%</option>
-                                      <option value="4">5%</option>
-                                      <option value="5">6%</option>
-                                      <option value="6">7%</option>
-                                      <option value="7">8%</option>
-                                      <option value="8">9%</option>
-                                      <option value="9">10%</option>
-                                  </select>   
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Apellido Materno</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Apellido Materno">
                                 </div> <br>
-          
-                                  <div class="col-12">
-                                      <label for="exampleFormControlInput1" class="form-label">Bancos</label>
-                                      <select class="form-select" aria-label="Default select example">
-                                          <option selected>Bancos</option>
-                                          <option value="1">ACITIBANAMEX</option>
-                                          <option value="2">BANORTE</option>
-                                          <option value="3">HSBC</option>
-                                          <option value="5">SANTANDER</option>
-                                          <option value="6">SCOTIABANK</option>
-                                          <option value="7">AFIRME</option>
-                                          <option value="8">HEY,BANCO</option>
-                                          <option value="9">VE POR MAS</option>
-                                          <option value="10">HSBC DESARROLLADORES</option>
-                                          <option value="11">ION FINANCIERA</option>
-                                          <option value="12">BANCA MIFEL</option>
-                                          <option value="13">SCOTIABANK DESARROLLADORES</option>
-                                          <option value="14">SANTANDER CREDIFERENTE</option>
-                                      </select>                
-                                  </div>  
-          
-                                  <div class="col-6">
-                                    <label for="inputAddress" class="form-label">Perfil de cliente</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>PERFIL B (TASA BAJA)</option>
-                                        <option value="1">PERFIL A (TASA PREMIUM)</option>
-                                        <option value="2">PERFIL B (TASA BAJA)</option>
-                                        <option value="3">PERFIL C (TASA MEDIA)</option>
-                                        <option value="4">PERFIL D (TASA ALTO RIESGO)</option>
-                                    </select>   
-                                  </div> 
-          
-                                  <div class="col-6">
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Fecha de nacimiento</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="dd/mm/aaaa">
+                                </div>
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Correo electrónico</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Correo electrónico">
+                                </div>
+                                <div class="col-3">
+                                  <label for="inputAddress" class="form-label">Teléfono celular (10 dígitos)</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Teléfono celular (10 dígitos)">
+                                </div>
+                                  <div class="col-3">
                                     <label for="inputAddress" class="form-label">Estado</label>
                                     <select class="form-select" aria-label="Default select">
                                       <option selected="">Selecciona el estado</option>
@@ -196,13 +123,11 @@
                                       <option value="31">ZACATECAS</option>
                                     </select> 
                                   </div> 
-                                <button class="btn-cotizar">Cotizar</button>
                               </form>
                           </div>
                         </div> <!---Destino-->
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                           <div class="contenido">
-                              <h3 style="margin-bottom: 25px; margin-top: 25px;">Nueva cotización</h3>
                               <form class="row g-3 tap-content">
                                 <div class="col-12">
                                   <label for="exampleFormControlInput1" class="form-label">Destino</label>
@@ -292,82 +217,11 @@
                                           <option value="14">SANTANDER CREDIFERENTE</option>
                                       </select>                
                                   </div>  
-          
-                                  <div class="col-6">
-                                    <label for="inputAddress" class="form-label">Perfil de cliente</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>PERFIL B (TASA BAJA)</option>
-                                        <option value="1">PERFIL A (TASA PREMIUM)</option>
-                                        <option value="2">PERFIL B (TASA BAJA)</option>
-                                        <option value="3">PERFIL C (TASA MEDIA)</option>
-                                        <option value="4">PERFIL D (TASA ALTO RIESGO)</option>
-                                    </select>   
-                                  </div> 
-          
-                                  <div class="col-6">
-                                    <label for="inputAddress" class="form-label">Estado</label>
-                                    <select class="form-select" aria-label="Default select">
-                                      <option selected="">Selecciona el estado</option>
-                                      <option value="2">AGUASCALIENTES</option>
-                                      <option value="3">BAJA CALIFORNIA</option>
-                                      <option value="4">BAJA CALIFORNIA SUR</option>
-                                      <option value="5">CAMPECHE</option>
-                                      <option value="6">CHIAPAS</option>
-                                      <option value="7">CDMX</option>
-                                      <option value="8">CHIHUAHUA</option>
-                                      <option value="9">COAHUILA</option>
-                                      <option value="10">COLIMA</option>
-                                      <option value="11">DURANGO</option>
-                                      <option value="12">GUANAJUATO</option>
-                                      <option value="1">HIDALGO</option>
-                                      <option value="14">JALISCO</option>
-                                      <option value="15">MICHOACÁN</option>
-                                      <option value="16">MORELOS</option>
-                                      <option value="17">NAYARIT</option>
-                                      <option value="18">NUEVO LEÓN</option>
-                                      <option value="19">OAXACA</option>
-                                      <option value="20">PUEBLA</option>
-                                      <option value="21">QUERÉTARO</option>
-                                      <option value="22">QUINTANA ROO</option>
-                                      <option value="23">SAN LUIS POTOSÍ</option>
-                                      <option value="24">SINALOA</option>
-                                      <option value="25">SONORA</option>
-                                      <option value="26">TABASCO</option>
-                                      <option value="27">TAMAULIPAS</option>
-                                      <option value="28">TLAXCALA</option>
-                                      <option value="29">VERACRUZ</option>
-                                      <option value="30">YUCATÁN</option>
-                                      <option value="31">ZACATECAS</option>
-                                    </select> 
-                                  </div> 
-                                <button class="btn-cotizar">Cotizar</button>
+                                <button class="btn-cotizar">Crear nuevo</button>
                               </form>
                           </div>
                         </div>
                       </div>
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination justify-content-end">
-                          <li class="page-item">
-                            <a class="page-link page-ico" href="#" aria-label="Previous">
-                              <span aria-hidden="true">&laquo;</span>
-                            </a>
-                          </li>
-                          <li class="page-item"><a class="page-link" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item"><a class="page-link" href="#">4</a></li>
-                          <li class="page-item"><a class="page-link" href="#">5</a></li>
-                          <li class="page-item"><a class="page-link" href="#">6</a></li>
-                          <li class="page-item"><a class="page-link" href="#">7</a></li>
-                          <li class="page-item"><a class="page-link" href="#">8</a></li>
-                          <li class="page-item"><a class="page-link" href="#">9</a></li>
-                          <li class="page-item">
-                            <a class="page-link page-ico" href="#" aria-label="Next">
-                              <span aria-hidden="true">&raquo;</span>
-                            </a>
-                          </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
