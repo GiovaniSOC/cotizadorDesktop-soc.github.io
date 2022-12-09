@@ -332,6 +332,9 @@ td{
     font-weight: 700;
     font-family: var(--font-family-circular-Book);
 }
+.form-label{
+    color: var(--primario) !important;
+}
 
 /*-----MQ----*/
 
