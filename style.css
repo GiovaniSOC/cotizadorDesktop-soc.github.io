@@ -320,3 +320,12 @@ td{
     font-size: 14px;
     font-family: var(--font-family-circular);
 }
+
+/*-----MQ----*/
+
+@media (max-width: 768px) {
+    .fondo{height: auto;}
+} 
+@media (max-width: 992px) {
+    .fondo{height: auto;}
+} 
