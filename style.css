@@ -171,6 +171,13 @@ header{
     margin-top: 10px;
     margin-left: 13px;
 }
+.input-group-text{
+    border: none;
+    background-color: #F0F2F6;
+}
+.ico-filtro{
+    width: 20px;
+}
 h2{
     font-size: 18px;
     margin: 0px;
