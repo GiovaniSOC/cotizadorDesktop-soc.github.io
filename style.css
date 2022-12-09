@@ -327,6 +327,11 @@ td{
     font-size: 14px;
     font-family: var(--font-family-circular);
 }
+.detalle-caso-header{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-family-circular-Book);
+}
 
 /*-----MQ----*/
 
