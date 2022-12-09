@@ -92,7 +92,7 @@ hr.h-color{
 .link-menu-dos {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
-  .link-menu-dos:hover {
+.link-menu-dos:hover {
     color: var(--primario);
     box-shadow: inset 200px 0 0 0 white;
     border-radius: 4px;
