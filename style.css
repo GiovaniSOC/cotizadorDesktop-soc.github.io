@@ -48,8 +48,18 @@ h3{
 /*--------NAV-BAR---------------*/
 #side_nav{
     background-color: var(--primario);
+    min-width: 150px;
+    max-width: 150px;transition: all 0.3s ease;
+}
+#side_nav:hover{
+    background-color: var(--primario);
     min-width: 220px;
     max-width: 220px;
+    transition: all 0.3s ease-in-out;
+}
+.logo-w{
+    height: 40px;
+    margin-left: 10px;
 }
 .content{
     min-height: 100vh;
@@ -143,10 +153,6 @@ hr.h-color{
     border-radius: 9px;
     color: #006D4E;
     height: 40px;
-}
-.logo-w{
-    height: 50px;
-    margin-left: 22px;
 }
 li{
     margin-bottom: 25px;
