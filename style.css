@@ -144,6 +144,11 @@ li{
     border-radius: 6px;
     height: 500px;
 }
+.fondo-full{
+    background-color: white;
+    margin: 2px 35px 18px 45px;
+    border-radius: 6px;
+}
 li.a:hover{
     color: #006D4E;
 }
