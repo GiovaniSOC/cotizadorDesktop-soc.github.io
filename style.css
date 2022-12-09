@@ -96,39 +96,6 @@ hr.h-color{
     color: var(--primario);
     box-shadow: inset 200px 0 0 0 white;
     border-radius: 4px;
-  } /*---Dos----*/
-  .link-menu{
-    background-image: linear-gradient(
-      to right,
-      #079DEF,
-      #079DEF 50%,
-      #fff 50%
-    );
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-  }
-  .link-menu:before{
-    content: '';
-    background: #079DEF;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 4px;
-    transition: all 0.3s ease-in-out;
-  }
-  .link-menu:hover {
-   background-position: 0;
-  }
-  
-  .link-menu:hover::before{
-    width: 100%;
   }
 /*-Fin Hover menu-*/
 /*--btn cerrar sesion----*/
