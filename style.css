@@ -103,13 +103,15 @@ hr.h-color{
     color: white;
     font-weight: 600;
 }
+.sidebar li a:hover{
+    color: var(--primario);
+}
 .cerrarSesion:hover{
     color: var(--primario);
     font-weight: 600;
 }
 .Cerrar-sesion{
     margin-top: 300px;
-    color: #006D4E;
     padding: 0.5rem 1rem;
     display: block;
     text-decoration: none;
