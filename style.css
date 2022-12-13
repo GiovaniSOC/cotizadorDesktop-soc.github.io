@@ -385,6 +385,9 @@ td{
     font-size: 14px;
     font-family: var(--font-family-circular);
 }
+.caso-sig{
+    transform: scaleX(-1);
+}
 .detalle-caso-header{
     font-size: 16px;
     font-weight: 700;
