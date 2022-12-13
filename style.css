@@ -321,8 +321,8 @@ h2{
     font-family: var(--font-family-circular-Thin);
 }
 #page-link-active{
-    background-color: var(--primario);
-    color: white;
+    background-color: white;
+    color:var(--primario);
     font-family: var(--font-family-circular-Book);
 }
 .ico-paginacion{
