@@ -78,8 +78,8 @@ h3{
     width: 100%;
     background-color: #f1f4ff;
     position: absolute;
-    left: 150px;
-    width: calc(100% - 154px);
+    left: 105px;
+    width: calc(100% - 105px);
     transition: all 0.3s ease;
 }
 hr.h-color{
