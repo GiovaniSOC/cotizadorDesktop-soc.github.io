@@ -48,8 +48,8 @@ h3{
 /*--------NAV-BAR---------------*/
 #side_nav{
     background-color: var(--primario);
-    min-width: 150px;
-    max-width: 150px;transition: all 0.3s ease;
+    min-width: 105px;
+    max-width: 105px;transition: all 0.3s ease;
     height: 100%;
     position: fixed;
 }
@@ -110,7 +110,7 @@ hr.h-color{
     border-radius: 4px;
 }
 .icon{
-    min-width: 70px;
+    min-width: 30px;
     border-radius: 6px;
     height: 100%;
     display: flex !important;
@@ -122,7 +122,7 @@ hr.h-color{
 }
 #side_nav:hover .list-unstyled .nav-link .icon{
     font-size: 22px;
-    margin-left: -20px;
+    margin-left: -6px;
 }
 .ico-menu{
     width: 14px;
@@ -150,7 +150,7 @@ hr.h-color{
 }
 #side_nav .list-unstyled .nav-link .ico-menu{
     width: 24px;
-    margin-left: 35px;
+    margin-left: 15px;
 }
 
 
@@ -316,7 +316,8 @@ h2{
     font-family: var(--font-family-circular-Thin);
 }
 #page-link-active{
-    color: var(--primario);
+    background-color: var(--primario);
+    color: white;
     font-family: var(--font-family-circular-Book);
 }
 .ico-paginacion{
