@@ -65,8 +65,13 @@ h3{
     transition: all 0.3s ease;
 }
 .logo-w{
-    height: 40px;
+    height: 25px;
     margin-left: 10px;
+}
+#side_nav:hover .logo-w{
+    height: 45px;
+    margin-left: 25px;
+    transition: all 0.3s ease-in-out;
 }
 .content{
     min-height: 100vh;
