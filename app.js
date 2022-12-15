@@ -17,3 +17,10 @@
     $(".sidebar ul li.active").removeClass('active');
     $(this).addClass('active');
 })
+
+//Boton Perfil-cargar img
+
+function cambiar(){
+    var pdrs = document.getElementById('subirImagen').files[0].name;
+    document.getElementById('info').innerHTML = pdrs;
+  }
