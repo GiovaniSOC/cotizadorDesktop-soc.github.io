@@ -76,8 +76,37 @@ i{
     color: var(--primario);
     font-family: var(--font-family-circular-Book);
     font-weight: 600;
+}.reporte-tabla .col-3{
+    color: var(--primario);
+    font-family: var(--font-family-circular-Book);
+    font-weight: 600;
 }
 .page-perfil{
     margin-right: 20px;
     background-color: #E5E5E5;
+}
+/*-----Reportes------*/
+.sin-resultado{
+    color: var(--secundario-164c);
+    font-weight: 800;
+    font-family: var(--font-family-circular-Book);
+    font-size: 18px;
+}
+/*Registro*/
+.btn-registro{
+    background-color: var(--secundario-blue);
+    color: white;
+    width: 220px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    display: grid;
+    align-items: center;
+}
+h4{
+    color: var(--btn);
+    font-size: 22px;
+    text-align: center;
+    background-color:#F2F4FE;
 }
