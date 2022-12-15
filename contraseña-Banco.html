@@ -26,7 +26,7 @@
             <ul class="list-unstyled px-2">
                 <li class="nav-link">
                   <div class="row">
-                    <div class="col-2">
+                    <div class="col-md-2">
                       <img class="ico-menu" src="img/ico-menu.png">
                     </div>
                     <div class="col">
@@ -34,13 +34,13 @@
                     </div>
                   </div>
                 </li>
-                <li class="nav-link active">
+                <li class="nav-link">
                   <div class="row">
                     <div class="col-2">
                       <img class="ico-menu" src="img/ico-menu.png">
                     </div>
                     <div class="col">
-                      <a href="perfil.html" class="text-decoration-none d-block"><span class="text-menu">Reportes de crédito</span> </a>
+                      <a href="perfil-reportes.html" class="text-decoration-none d-block"><span class="text-menu">Reportes de crédito</span> </a>
                     </div>
                   </div>
                 </li>
@@ -54,7 +54,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link ">
                   <div class="row">
                     <div class="col-2">
                       <img class="ico-menu" src="img/ico-menu.png">
@@ -64,10 +64,10 @@
                     </div>
                   </div>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link active">
                   <div class="row">
                     <div class="col-2">
-                      <img class="ico-menu" src="img/ico-menu.png">
+                      <i class='bx bx-photo-album icon'></i>
                     </div>
                     <div class="col">
                       <a href="contraseña-Banco.html" class="text-decoration-none d-block"><span class="text-menu">Contraseñas Banco</span> </a>
@@ -101,54 +101,24 @@
             </header>
             <div class="fondo-full" style="margin-top: 50px;">
                 <div class="contenido">
-                    <h2 class="titulo-generales" style="margin-bottom: 25px; margin-top: 25px;">Consultas a Reportes de Crédito bajo su supervisión</h2> <hr>
+                    <h2 class="titulo-generales" style="margin-bottom: 25px; margin-top: 25px;">Contraseña por banco</h2> <hr>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                      <a class="btn-registro">+ Nuevo Registro</a>
+                    </div>
                     <form class="row g-3 tap-content">
-                      <div class="col-6">
-                        <label for="exampleFormControlInput1" class="form-label">Filtra Consultas por ejecutivo</label>
-                        <select class="form-select" aria-label="Default select example">
-                          <option selected>Bryan Alexis Hernández Lamadrid</option>
-                          <option value="1">BRYAN BRYAN registro LAMADRID</option>
-                          <option value="2">Pyme</option>
-                        </select>                
-                      </div> <br>
-                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <div class="col-3">
-                          <i class='ico-busacar bx bx-search-alt'></i>
-                            <input class="form-control buscador" type="text" placeholder="" aria-label="default input example">
-                        </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Widget</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="https://cotizador.socasesores.com/widget-/#/804b1d8fa46e7c3c5ede42448400ffd8">
                       </div>
                     </form>
-                    <div class="row reporte-tabla"> <hr>
-                      <div class="col-2">Fecha</div>
-                      <div class="col-3">Solicitante</div>
-                      <div class="col-2">Broker</div>
-                      <div class="col-2">Supervisor</div>
-                      <div class="col-2">Organización</div> <hr>
-                      <div class="col-12">No hay datos para mostrar</div>
-                    </div>
-                    <div class="row">
-                      <nav class="navigation" aria-label="Page navigation">
-                          <ul class="pagination justify-content-end">
-                            <li class="page-item">
-                              <a class="page-link page-perfil page-ico" href="index-dos.html" aria-label="Previous">
-                                <span aria-hidden="true"><img class="ico-paginacion rotate" src="img/flecha-paginacion.png"></span>
-                              </a>
-                            </li>
-                            <li class="page-item">
-                              <a class="page-link page-ico" href="perfil-reportes.html"aria-label="Next">
-                                <span aria-hidden="true"><img class="ico-paginacion" src="img/flecha-paginacion.png"></span>
-                              </a>
-                            </li>
-                          </ul>
-                      </nav>
-                    </div>
                 </div>
             </div>
+
+    <h4>COPYRIGHT 2021 Cotizador SOC, todos los derechos reservados.</h4>
         </div>
 
+        <h4>COPYRIGHT 2021 Cotizador SOC, todos los derechos reservados.</h4>
     </div>
-
-
     <script>
         $(".sidebar ul li").on('click', function(){
             $(".sidebar ul li.active").removeClass('active');
