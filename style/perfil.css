@@ -80,6 +80,7 @@ i{
     color: var(--primario);
     font-family: var(--font-family-circular-Book);
     font-weight: 600;
+    margin-bottom: 16px;
 }
 .page-perfil{
     margin-right: 20px;
