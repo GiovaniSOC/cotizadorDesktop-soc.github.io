@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/perfil.css">
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Cotizador Desktop</title>
+  </head>
+  <body>
+    <div class="main-container d-flex">
+    <!-------------------------------BAR---------------------------->
+        <div class="sidebar" id="side_nav">
+            <div class="header-box px-2 pt-3 pb-4">
+              <a href="index.html"><img class="logo-w" src="img/soc-logo-b.png" alt="" srcset=""></a>
+            </div>
+            <ul class="list-unstyled px-2">
+                <li class="nav-link active">
+                  <div class="row">
+                    <div class="col-md-2">
+                        <i class='bx bx-photo-album icon'></i>
+                    </div>
+                    <div class="col">
+                      <a href="index.html" class="text-decoration-none d-block"><span class="text-menu">Lista de casos</span> </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-link">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="ico-menu" src="img/ico-menu.png">
+                    </div>
+                    <div class="col">
+                      <a href="cotizacion.html" class="text-decoration-none d-block"><span class="text-menu">Cotización rápida</span> </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-link">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="ico-menu" src="img/ico-menu.png">
+                    </div>
+                    <div class="col">
+                      <a href="nuevoCaso.html" class="text-decoration-none d-block"><span class="text-menu">Nuevo caso</span> </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-link">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="ico-menu" src="img/ico-menu.png">
+                    </div>
+                    <div class="col">
+                      <a href="reportes.html" class="text-decoration-none d-block"><span class="text-menu">Reportes de crédito</span> </a>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+            <ul class="list-unstyled px-2">
+                <li style="cursor: pointer;" class="Cerrar-sesion nav-link link-menu-dos"><a href="index.html" class="text-decoration-none d-block">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+        <!-------------------------------Content---------------------------->
+        <div class="content">
+            <header id="header-nav">
+                <nav class="navbar navbar-light">
+                    <div class="container-fluid">
+                      <samp></samp>
+                      <form class="d-flex">
+                        <img class="ico-perfil" src="img/perfil.png">
+                        <div class="dropdown">
+                          <button class="header-nombre btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Bryan Alexis Hernández Lamadrid
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item header-nombre" href="perfil.html">Perfil</a></li>
+                            <li><a class="dropdown-item header-nombre" href="#">FAQ´S</a></li>
+                          </ul>
+                        </div>
+                      </form>
+                    </div>
+                  </nav>
+            </header>
+            <div class="fondo-w" style="margin-top: 50px;">
+              <div class="row">
+                <div class="col-2 bg-w" style="height: 130px;">
+                  <h3>Soporte</h3>
+                  <p>Para cualquier aclaración contactar a el soporte de SOC asesores</p>
+                </div>
+                <div class="col-9">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          ¿Hasta cuánto podría ahorrar con Mejora de hipoteca?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Gracias a la Reforma Financiera los bancos compiten por ofrecernos mejores productos, y esto podría llegar a ser hasta un 25% menos del pago total por nuestra casa. Nuestros ahorros promedio son de +500,000 pesos en el pago total de un crédito.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          ¿Qué es un crédito hipotecario?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Se le llama Crédito Hipotecario al préstamo que otorga una entidad financiera en el que el inmueble que adquieres queda como garantía de pago (hipotecado) sobre el financiamiento mientras éste se mantenga vigente. La hipoteca podrá ser liberada una vez que se concluya el pago del crédito, mediante un proceso notarial. <br>
+                          Crédito Hipotecario es el préstamo que te ofrece una institución financiera para comprar, construir, ampliar o remodelar una vivienda, el cual contempla pagos mensuales de capital e intereses.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Cuánto tiempo toma contratar un crédito?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Contratar un Crédito Hipotecario toma aproximadamente un mes, considerando que en todas las etapas se haya entregado la documentación vigente, completa y correcta. Si el crédito se contrata en cofinanciamiento con el INFONAVIT o el FOVISSSTE, el trámite estará sujeto a los procesos y reglas del instituto con el que se contrate.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingCU">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCU" aria-expanded="false" aria-controls="collapseCU">
+                          Principales definiciones del Crédito Hipotecario
+                        </button>
+                      </h2>
+                      <div id="collapseCU" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          - Monto de crédito:
+
+                          Es la cantidad de dinero que presta la institución financiera para la adquisición de la vivienda. También se le conoce como capital.
+                          
+                          
+                          - Moneda:
+                          
+                          La mayoría de las instituciones en México otorgan créditos en pesos.
+                          
+                          
+                          - Tasa de interés:
+                          
+                          Es el costo que tendrá el dinero del préstamo a lo largo del plazo contratado. La tasa puede ser fija durante toda la vida del crédito, creciente o variable.El tipo de tasa dependerá del producto de crédito que se contrate.
+                          
+                          
+                          - Plazo:
+                          
+                          Es el tiempo destinado para realizar el pago total del préstamo, el plazo se elige desde el inicio y queda estipulado en la escritura. Los plazos van desde 1 a 20 años por lo general.
+                          
+                          
+                          - Mensualidad del crédito:
+                          
+                          Es el pago mensual que debes hacer para pagar tu hipoteca que considera: capital + intereses + comisión + seguros (en su caso).
+                          
+                          
+                          - Interés moratorio:
+                          
+                          En caso de no realizar el pago de la hipoteca en la fecha establecida se hará el cobro de un interés extraordinario, mismo que se estipula en la escritura del crédito.
+                          
+                          
+                          - Seguros:
+                          
+                          El crédito debe tener la protección de tres seguros, el de Vida que cubra el saldo del crédito, el de Daños que cubra el inmueble en garantía y el de Desempleo que proteja al cliente en caso de pérdida del empleo. Estos seguros pueden ser contratados con la institución financiera o con otra aseguradora.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Para qué puedes utilizar un Crédito Hipotecario?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          - Adquirir una vivienda:
+
+                          Si te interesa adquirir casa o departamento ya sea nuevo o usado.
+                          
+                          
+                          - Sustituir tu crédito actual:
+                          
+                          Si estás pagando un Crédito Hipotecario con otra institución financiera y quieres mejorar las condiciones en tasa o plazo, puedes contratar un crédito para liquidar esa deuda y aprovechar mejores condiciones.
+                          
+                          
+                          - Construir una vivienda:
+                          
+                          Si cuentas con un terreno y prefieres construir tu vivienda, el crédito de construcción es el que te conviene.
+                          
+                          
+                          - Remodelar tu casa:
+                          
+                          Si buscas hacer alguna mejora o remodelación a la vivienda, como cambiar los pisos, mejorar las instalaciones eléctricas o redistribuir la cocina, entre otras, puedes obtener un Crédito Hipotecario. Para contratarlo debes ser el dueño de la vivienda y ésta deberá estar libre de gravamen.
+                          
+                          
+                          - Comprar un terreno:
+                          
+                          Si lo que estás buscando es comprar un terreno también lo puedes adquirir con un Crédito Hipotecario. Debes cuidar que el uso de suelo sea habitacional, se encuentre en zonas residenciales y que tenga acceso a todos los servicios.
+                          
+                          
+                          - Tener mayor liquidez:
+                          
+                          Si necesitas dinero para pagar deudas o simplemente utilizarlo en lo que prefieras, con este crédito obtienes el dinero que necesitas dejando en garantía tu vivienda.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Qué consideraciones debes tener antes de contratar el crédito?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          - Antes de contratar el crédito es importante que conozcas tu capacidad de pago, de esta manera conocerás el monto real que podrás destinar al pago mensual de la hipoteca. Dentro de tus ingresos considera tu aguinaldo, prima vacacional y bonos recurrentes.
+
+
+                          Ingresos mensuales - gastos y ahorro = capacidad de pago
+                          
+                          
+                          - Mantén limpio tu historial de crédito; tener buenos antecedentes pueden facilitar la autorización del crédito.
+                          
+                          
+                          - Cuida no sobre endeudarte; mientras menos deudas tengas el monto de crédito podrá ser mayor.
+                          
+                          
+                          - A mayor plazo de crédito, será menor el pago de la mensualidad. Considera que puedes realizar prepagos al crédito en el momento que lo decidas.
+                          
+                          
+                          - Antes de decidirte por una vivienda revisa la ubicación, calidad del inmueble y sus instalaciones. Si la vivienda no está en buenas condiciones y en una zona urbanizada no podrá considerarse como garantía.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Cuáles son los requisitos que debes cumplir para acceder a un Crédito Hipotecario
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          - Para contratar un Crédito Hipotecario debes comprobar tus ingresos y considerar que aproximadamente un 30% de tus ingresos mensuales se destinarán al pago de la hipoteca.
+
+
+                          - Si eres asalariado debes tener una antigüedad mínima de un año trabajando. Si eres independiente deberás de tener mínimo 2 años comprobables en la actividad u ocupación.
+                          
+                          
+                          - Se pueden sumar los ingresos entre cónyuges o concubinos para poder acceder a mayor monto de crédito.
+                          
+                          
+                          - Es importante que tengas un buen buró de crédito, es decir, no tener atrasos en los pagos de tus créditos, tarjetas de crédito, tarjetas departamentales y/o planes de telefonía, entre otros. En caso de que no tengas antecedentes en el buró, también podrás tener acceso a un Crédito Hipotecario, siempre que cumplas con los demás requisitos Bancarios.
+                          
+                          
+                          - Puedes conocer el reporte de tu buró de crédito en www.burodecredito.com.mx
+                          
+                          
+                          - La autorización del crédito está sujeta a una evaluación por parte del Banco.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿En qué gastos incurres al contratar el Crédito Hipotecario?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          La contratación de un Crédito Hipotecario tiene diferentes gastos, mismos que debes considerar el todo el proceso de contratación:
+
+
+                          - Avalúo: Deberás hacer el pago del avalúo previo a la firma de la escritura para poder validar el valor comercial del inmueble, la ubicación y calidad, ya que éste quedará en garantía.
+                          
+                          
+                          - Enganche: Es la diferencia entre el valor de compra-venta y el monto de préstamo del Banco. Éste se debe pagar al vendedor según lo acordado.
+                          
+                          
+                          - Comisión por apertura: Esta comisión podrá variar dependiendo del monto, producto o destino del crédito. Se descuenta del crédito el día que lo firmas.
+                          
+                          
+                          - Gastos de escrituración: Los gastos de escrituración e impuestos dependerán del valor del inmueble. Los debes pagar al Notario el día que firmas tu escritura y estos deben ser informados previamente por la notaría.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Qué seguros tiene un Crédito Hipotecario?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Al contratar un Crédito Hipotecario debes contar con tres seguros: Seguro de Vida, que cubra el saldo del crédito, Seguro de Daños que cubra los daños al inmueble y Seguro de Desempleo que te proteja en caso de pérdida del empleo. <br>
+
+
+                          Estos seguros pueden ser adquiridos en el banco con tarifas preferenciales al optar por la Prima Única donde se financian los cuatro primeros años del pago del seguro y se le otorga por el mismo costo una cobertura de Seguro de Desempleo. <br>
+                          
+                          
+                          También existe la posibilidad de que presentes seguros contratados con otra aseguradora, estos seguros deben estar vigentes por toda la vida del crédito y el banco deberá ser en todos los casos el beneficiario preferente e irrevocable. <br>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Cuál es el medio de disposición y pago del crédito?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Si lo deseas podrás utilizar una cuenta en el banco para hacer el pago de las mensualidades del crédito.
+
+
+                          Para el pago de tu crédito también puedes elegir cualquiera de las siguientes opciones:
+                          
+                          
+                          - Domiciliar tu cuenta en el banco.
+                          
+                          
+                          - Hacer transferencia interbancaria.
+                          
+                          
+                          - Pagar en la ventanilla de la sucursal en efectivo o con cheque.
+                          
+                          
+                          - Domiciliar la cuenta de otro banco.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Qué debes hacer cuando termines de pagar el crédito?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Ya que has terminado de pagar el crédito puedes acudir a la sucursal Bancaria de tu preferencia y solicitar la liberación de la hipoteca.
+
+
+                          Si tu crédito es en cofinanciamiento con el INFONAVIT o el FOVISSSTE debes considerar:
+                          
+                          
+                          - El crédito del INFONAVIT o FOVISSSTE debe estar liquidado antes de iniciar el trámite de liberación de la hipoteca, de no ser así, acude ante el instituto que corresponda, pide el saldo de tu adeudo y las instrucciones para la liquidación.
+                          
+                          
+                          - Debes tramitar con el INFONAVIT o el FOVISSSTE la liberación del gravamen que tiene tu inmueble con el instituto.
+                          
+                          
+                          - Si vas a vender el inmueble se requiere que con tus recursos hagas el pago de la parte de crédito otorgada por dicho instituto para posteriormente proceder a la firma ante el notario.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Cómo funcionan los prepagos en el Crédito Hipotecario?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          En el Crédito Hipotecario puedes hacer pagos anticipados al capital de tu crédito en cualquier momento y sin penalización.
+
+
+                          Para hacer un pago anticipado debes acudir a la sucursal Bancaria más cercana a solicitarlo en cualquier momento y podrás elegir el efecto de dicho pago, bajo las siguientes opciones:
+                          
+                          
+                          Reducción de Cuota. Reduce el importe de los pagos mensuales del crédito, manteniendo el plazo contratado.
+                          
+                          
+                          Reducción de Plazo. Reduce el número de pagos a realizar conservando el importe del pago mensual establecido en el contrato.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        $(".sidebar ul li").on('click', function(){
+            $(".sidebar ul li.active").removeClass('active');
+            $(this).addClass('active');
+        })
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
