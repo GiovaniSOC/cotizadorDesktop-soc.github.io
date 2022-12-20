@@ -401,6 +401,25 @@ td{
     text-align: center;
 } */
 
+/*-----Reportes------*/
+.form-check-label{
+    color: var(--primario);
+}
+
+.titulo-reportes{
+    margin-bottom: 25px; 
+    position: absolute;
+    top: 136px;
+    left: 110px;
+    background-color: white;
+    width: 12%;
+    text-align: center;
+}
+.margen-color{
+    border: #4ED176 1px solid;
+    margin-top: 30px;
+}
+
 /*-----Cotizacion-----*/
 
 .btn-cotizar{
