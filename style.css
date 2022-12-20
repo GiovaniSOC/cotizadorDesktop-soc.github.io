@@ -134,10 +134,32 @@ hr.h-color{
     color: var(--primario);
     margin-left: 16px;
 }
+
+/*----LogoMenu---*/
 #side_nav:hover .list-unstyled .nav-link .icon{
     font-size: 22px;
     margin-left: -1px;
 }
+#side_nav:hover .ico-des{
+    visibility: hidden;}
+
+#side_nav:hover .ico-vis{
+    visibility: visible;
+    width: 155px;
+    margin-left: -20px;
+}
+.nav-link:hover .ico-vis{
+    background-color: none !important;
+}
+.ico-vis{
+    visibility: hidden;
+}
+.logo-menu{
+    width: 30px;
+    margin-left: 28px;
+}
+/*----TerminaLogoMenu---*/
+
 .ico-menu{
     width: 14px;
     margin-right: 9px;
