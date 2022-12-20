@@ -101,6 +101,9 @@ i{
 }.nav-link:hover .text-menu{
     color: #006D4E !important;
 }
+.dropdown-item.active, .dropdown-item:active{
+    background-color: var(--primario);
+}
 /*-----Reportes------*/
 .sin-resultado{
     color: var(--secundario-164c);
@@ -131,6 +134,7 @@ h4{
 .bg-w{
     background-color: white;
     margin-right: 25px;
+    border-radius: 12px;
 
 }
 .fondo-w{
@@ -149,4 +153,18 @@ h4{
     color: var(--primario) !important;
     margin-top: 16px;
     font-family: var(--font-family-circular-Book);
+}
+.accordion-item{
+    border-radius: 13px !important;
+    border-color: none !important;
+}
+.accordion-button{
+    border-radius: 13px;
+    border-color: none;
+    color: var(--primario) !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(/img/collapsable-1.svg);
+    transform: rotate(0);
 }
