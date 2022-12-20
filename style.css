@@ -420,6 +420,10 @@ td{
     margin-top: 30px;
 }
 
+input::-webkit-input-placeholder {
+    color: var(--primario) !important;
+    }
+
 /*-----Cotizacion-----*/
 
 .btn-cotizar{
