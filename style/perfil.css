@@ -90,11 +90,16 @@ i{
 #side_nav .list-unstyled .nav-link .iconw{
     color: white;
     font-size: 25px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 #side_nav:hover .list-unstyled .nav-link .iconw{
     color: white;
     margin-left: 0px;
+}
+.nav-link:hover .iconw{
+    color: #006D4E !important;
+}.nav-link:hover .text-menu{
+    color: #006D4E !important;
 }
 /*-----Reportes------*/
 .sin-resultado{
