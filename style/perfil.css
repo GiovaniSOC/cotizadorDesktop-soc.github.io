@@ -165,6 +165,6 @@ h4{
 }
 
 .accordion-button:not(.collapsed)::after{
-    background-image: url(/img/collapsable-1.svg);
+    background-image: url(/img/collapsable.png);
     transform: rotate(0);
 }
