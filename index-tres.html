@@ -71,15 +71,23 @@
         <!-------------------------------Content---------------------------->
         <div class="content">
             <header id="header-nav">
-                <nav class="navbar navbar-light">
-                    <div class="container-fluid">
-                      <samp></samp>
-                      <form class="d-flex">
-                        <img class="ico-perfil" src="img/perfil.png">
-                        <p class="header-nombre" >Bryan Alexis Hernández Lamadrid</p>
-                      </form>
-                    </div>
-                  </nav>
+              <nav class="navbar navbar-light">
+                  <div class="container-fluid">
+                    <samp></samp>
+                    <form class="d-flex">
+                      <img class="ico-perfil" src="img/perfil.png">
+                      <div class="dropdown">
+                        <button class="header-nombre btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Bryan Alexis Hernández Lamadrid
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item header-nombre" href="perfil.html">Perfil</a></li>
+                          <li><a class="dropdown-item header-nombre" href="faqs.html">FAQ´S</a></li>
+                        </ul>
+                      </div>
+                    </form>
+                  </div>
+                </nav>
             </header>
             <ul class="nav nav-pills mg-link" id="pills-tab" role="tablist">
                 <li class="nav-item mg-sub-menu" role="presentation">
