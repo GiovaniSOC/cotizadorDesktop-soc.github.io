@@ -420,7 +420,7 @@ td{
     margin-top: 30px;
 }
 
-input::-webkit-input-placeholder {
+.margen-color input::-webkit-input-placeholder {
     color: var(--primario) !important;
     }
 
