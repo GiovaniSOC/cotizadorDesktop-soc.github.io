@@ -140,3 +140,8 @@ h4{
     color: black;
     font-weight: 800;
 }
+.titulo-3{
+    color: var(--primario) !important;
+    margin-top: 16px;
+    font-family: var(--font-family-circular-Book);
+}
