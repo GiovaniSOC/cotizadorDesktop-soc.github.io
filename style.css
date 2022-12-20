@@ -109,6 +109,10 @@ hr.h-color{
 .list-unstyled{
     margin-top: 32px;
 }
+.mg-bu{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 /*-Hover menu-*/
 .link-menu-dos {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
